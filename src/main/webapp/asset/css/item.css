@@ -1,0 +1,15 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  color: #000;
+}
+
+table {
+  border-spacing: 20px;
+  border-collapse: separate;
+  cursor: pointer;
+}

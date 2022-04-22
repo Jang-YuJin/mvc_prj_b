@@ -1,0 +1,144 @@
+#top{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 100px auto;
+}
+
+#top #imgTitle{
+    width: 480px;
+    height: 480px;
+    background-image: url("https://via.placeholder.com/480x480?text=dummy image");
+    background-size: cover;
+}
+
+#top #imgDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 480px;
+    height: 480px;
+}
+
+#top #imgDesc #productName, #productPrice{
+    width: 480px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#top #imgDesc #productBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+#top #imgDesc #productBtn #purchase{
+    width: 200px;
+    height: 40px;
+    background-color: #C2B8A3;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+#top #imgDesc #productBtn #purchase:hover{
+    background-color: #E6DDC6;
+}
+
+#top #imgDesc #productBtn #shoppingBasket{
+    width: 200px;
+    height: 40px;
+    border: 2px solid #C2B8A3;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+#top #imgDesc #productBtn #shoppingBasket:hover{
+    border: 2px solid #E6DDC6;
+}
+
+#imgDetail{
+    width: 1100px;
+    height: 2500px;
+    background-image: url("https://via.placeholder.com/1100x2500?text=dummy image");
+    margin: 200px auto;
+}
+
+#reviewContainer{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin: 200px auto;
+}
+
+#reviewContainer .tableList{
+    width: 100%;
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+}
+
+#reviewContainer .tableList th, td{
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+}
+
+#reviewContainer .tableList .title{
+    width: 70%;
+}
+
+#reviewContainer .tableList .title a{
+    color: black;
+    text-decoration: none;
+}
+
+#reviewContainer .tableList .title a:active{
+    text-decoration: none;
+}
+#reviewContainer .tableList .title a:hover{
+    text-decoration: underline;
+}
+
+#reviewContainer .tableList .writer, .writeD{
+    width: 15%;
+    text-align: center;
+}
+
+#reviewContainer .tablePage{
+    margin: 10px auto;
+}
+
+#reviewContainer .tablePage .preBtn{
+    color: black;
+    text-decoration: none;
+}
+
+#reviewContainer .tablePage .nextBtn{
+    color: black;
+    text-decoration: none;
+}
+
+#reviewContainer .tablePage .preBtn:hover{
+    text-decoration: underline;
+}
+
+#reviewContainer .tablePage .nextBtn:hover{
+    text-decoration: underline;
+}
+
+#reviewContainer .writeBtn{
+    margin: 10px auto;
+    width: 100px;
+    height: 36px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    background-color: #C2B8A3;
+}
+
+#reviewContainer .writeBtn:hover{
+    background-color: #E6DDC6;
+}

@@ -1,0 +1,49 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.mypage {
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.write_sec, .write_sec_2 {
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.write_sec span, .write_sec_2 span {
+    margin-right: 30px;
+}
+
+.write_sec input {
+    width: 500px;
+}
+
+.write_sec_2 input {
+    width: 800px;
+    padding-bottom: 400px;
+}
+
+.edit_bt {
+    width: 500px;
+    position: relative;
+    left: 440px;
+}
+
+.edit_bt input {
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: #a29883;
+    color: #fff;
+}

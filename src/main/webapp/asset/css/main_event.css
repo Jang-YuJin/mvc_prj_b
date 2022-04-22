@@ -1,0 +1,25 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  color: #000;
+}
+
+.main_banner {
+  width: auto;
+  height: 600px;
+
+}
+
+.main_banner img {
+  display: block;
+  margin: auto;
+}
+
+hr {
+  margin: 0px 0px 100px 0px;
+}
+

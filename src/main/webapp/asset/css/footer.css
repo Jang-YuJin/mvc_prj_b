@@ -1,0 +1,97 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+  }
+
+.footer {
+    background-color: #a29883;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.footer_sec {
+    width: 1280px;
+    height: 350px;
+    margin: auto; 
+}
+
+.footer_logo {
+    width: 230px;
+    height: 25px;
+    margin-top: 50px;
+}
+
+/* 입점신청 */
+
+.mall_admin {
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    margin-top: 50px;
+    padding: 0 10px 0 10px;
+    background-color: #a29883;
+    color: #fff;
+    text-align: center;
+    border: #fff 3px solid;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.mall_admin:hover {
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: 550;
+}
+ 
+/* 입점신청 */
+
+.logo_and_mall {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    font-size: small;
+}
+
+.info_1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.info_1 div a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.info_2, .info_3 {
+    color: #fff;
+    margin-top: 30px;
+    font-weight: lighter;
+}
+
+.copy_and_icon {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.copy_and_icon ul img {
+    width: 23px;
+    height: 23px;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+.copy_and_icon ul img:nth-child(1) {
+    width: 24px;
+    height: 24px;
+}

@@ -1,0 +1,60 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.mypage {
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1000px;
+    margin: auto;
+    font-size: 13px;
+}
+
+.table_wrap th, .table_wrap td {
+    padding: 15px 0px;
+}
+
+.table_wrap td {
+    text-align: center;
+}
+
+.table_wrap tr {
+    border-bottom: 1px solid #999;
+}
+
+.edit_bt {
+    width: 500px;
+    position: relative;
+    left: 440px;
+}
+
+.edit_bt input {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #a29883;
+    border: solid 1px #a29883;
+    color: #fff;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.login_mg {
+    margin: auto;
+    margin-left: 100px;
+}
+
+

@@ -1,0 +1,88 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.main_image {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1280px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.item_info_price {
+    position: relative;
+    right: 100px;
+    margin-top: 200px;
+}
+
+.item_info_price p {
+    font-size: large;
+}
+
+/* 썸네일과 가격정보 */
+
+hr {
+    margin: 100px 0px 100px 0px;
+}
+
+/* 장바구니, 구매하기 */
+
+.cart_buy input:nth-child(1) {
+    margin-right: 10px;
+}
+
+/* 상세페이지 이미지 */
+
+.main_detail_page {
+    height: 1400px;
+    text-align: center;
+}
+
+.main_detail_page img {
+    width: 700px;
+    height: auto;
+    margin: auto;
+}
+
+/* 상세페이지 이미지 */
+
+/* 리뷰 게시판 */
+
+.review_sec {
+    width: 900px;
+    margin: auto;
+}
+
+.review_sec h3 {
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 900px;
+    text-align: center;
+    font-size: 13px;
+}
+
+table thead {
+    border-top: 2px solid #999;
+}
+
+table thead tr th, table tbody tr td {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #999;
+    padding: 10px 0;
+}
+
+table tr th:nth-child(1), table tbody tr td:nth-child(1) {
+    width: 500px;
+    text-align: left;
+    padding-left: 20px;
+}

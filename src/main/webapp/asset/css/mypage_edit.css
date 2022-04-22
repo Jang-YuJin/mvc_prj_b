@@ -1,0 +1,60 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.mypage {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.login input {
+    width: 280px;
+    height: 15px;
+    border-radius: 5px;
+    border: solid 2px #a29883;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    margin: auto;
+}
+
+.login_mg div:nth-child(1) {
+    margin-top: 50px;
+    margin-right: 80px;
+}
+
+.edit_bt {
+    display: block;
+    justify-content: space-around;
+    width: 500px;
+    margin-top: 50px;
+    padding-left: 90px;
+}
+
+.edit_bt input {
+    width: 150px;
+    height: 50px;
+    background-color: #a29883;
+    color: #fff;
+}
+
+.edit_bt input:nth-child(1) {
+    margin-right: 20px;
+}
+
+.login form {
+    width: 500px;
+    margin: auto;
+}
+
+.login_tel input {
+    width: 70px;
+} 

@@ -1,0 +1,68 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.login {
+    width: 500px;
+    height: 1100px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.login h2 {
+    margin: 80px 0px 10px 0px;
+    padding-left: 20px;
+}
+
+.login h3 {
+    margin: 20px 0px 10px 0px;
+}
+
+.login input {
+    width: 280px;
+    height: 15px;
+    border-radius: 5px;
+    border: solid 2px #a29883;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.login_mg {
+    margin: auto;
+    margin-left: 100px;
+}
+
+.login_tel input {
+    width: 70px;
+} 
+
+.join {
+    display: flex;
+    justify-content: center;
+    width: 140px;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.join input {
+    width: 140px;
+    height: 50px;
+    background-color: #a29883;
+    font-weight: 600;
+    color: #fff;
+}
+
+.join input:nth-child(1) {
+    margin-left: 10px;
+    margin-right: 10px;
+}

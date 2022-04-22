@@ -1,0 +1,48 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.mypage {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.mypage h2 {
+    margin: 80px 0px 10px 0px;
+    padding-left: 20px;
+}
+
+.my_menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.my_menu a {
+    width: 180px;
+    height: auto;
+    padding: 15px 10px;
+    background-color: #a29883;
+    color: #fff;;
+}
+
+.my_menu .back {
+    background-color: #fff;
+    border: #a29883 3px solid;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 50px;
+}
